@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    flex: auto;
 }
 
 .flexdown {
@@ -7,10 +8,12 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 30%;
+    order: 1;
 }
 
 .flexright {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    order: 2;
 }
