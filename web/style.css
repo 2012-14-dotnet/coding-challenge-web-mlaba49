@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+
+.flexdown {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.flexright {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
